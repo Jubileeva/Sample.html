@@ -159,7 +159,7 @@ button:hover{
     right: 0;
     */
     width: 100%;
-    background-color: #d43e55;/*#d43e55*/
+    background-color: #fff;/*#d43e55*/
     color: #fff;
     padding: 30px 0; /*Top-bottom, left-right*/
     display: flex;
