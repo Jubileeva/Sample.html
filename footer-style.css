@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #24262b;
+    padding-top: 70px;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255, 255, 0.5);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:{
+    color: #24264b;
+    background-color: #ffffff;
+}
+.footer-col button {
+    color: #ffffff;
+    background-color: #24264b;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.footer-col button a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.footer-col button:hover{
+    background-color: #24264b;
+}
+.footer-col button a:hover{
+    color: #ffffff;
+}
+.sub-footer{
+    width: 100vw;
+    background-color: #ffffff;
+    height: 60px;
+    
+}
+.sub-footer-content{
+    width: 80vw;
+    margin: auto 150px;
+    padding-top: 20px;
+}
+.sub-footer-content a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.sub-footer-content span{
+    margin-left: 300px; /*200px*/
+}
+
